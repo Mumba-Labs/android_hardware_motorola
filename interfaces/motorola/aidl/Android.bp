@@ -6,7 +6,7 @@
 
 aidl_interface {
     name: "com.motorola.hardware.biometric.fingerprint",
-    vendor_available: true,
+    vendor: true,
     srcs: ["com/motorola/hardware/biometric/fingerprint/*.aidl"],
     stability: "vintf",
     owner: "motorola",
